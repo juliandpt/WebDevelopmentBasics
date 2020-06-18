@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+<!--  <link rel="stylesheet" href="css/styles.css">-->
+  <title>Bootstrap</title>
+</head>
+
+<body>
+    
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Mi Web</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Quienes somos</a></li>
+      <li><a href="#">Productos</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+    
+<!--  Bootstrap 4
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+  <a class="navbar-brand" href="#">Mi Web</a>
+  
+
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Quienes somos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Producto</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Contacto</a>
+    </li>
+  </ul>
+</nav>    -->
+    
+<div class="container">
+  <h1>¡Hola mundo!</h1>
+<p>Esta es mi primera página usando Bootstrap... :) 
+    <br>
+    Estoy usando <b>container</b> </p>
+</div>
+
+<div class="container-fluid">
+  <h2>¡Hola de nuevo!</h2>
+    <p>Ahora estoy usando <b>container-fluid</b> </p>
+</div>
+<br>
+
+<h2>Galería de Imagenes 1</h2>
+<br>    
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+        <img src="images/paisaje1.jpg" alt="Paisaje"  class="img-responsive" >
+    </div>
+     <div class=" col-md-4">
+        <img src="images/paisaje2.jpg" alt="Paisaje"  class="img-responsive">
+    </div>
+     <div class=" col-md-4">
+      <img src="images/paisaje3.jpg" alt="Paisaje"  class="img-responsive">
+    </div>
+  </div>
+</div>
+<br>   
+    
+
+<h2>Galería de Imagenes 2</h2>
+<br>    
+<div class="container">
+  <div class="row">
+    <div class="col-xs-4 col-md-4">
+        <img src="images/paisaje1.jpg" alt="Paisaje"  class="img-responsive" >
+    </div>
+     <div class="col-xs-4 col-md-4">
+        <img src="images/paisaje2.jpg" alt="Paisaje"  class="img-responsive">
+    </div>
+     <div class="col-xs-4 col-md-4">
+      <img src="images/paisaje3.jpg" alt="Paisaje"  class="img-responsive">
+    </div>
+  </div>
+</div>
+<br>    
+
+<h2>Imagen centrada</h2>
+<br>    
+<div class="container">
+  <div class="row">
+    <div class="col-xs-3">
+       
+    </div>
+    <div class="col-xs-6">
+        <center><img src="images/paisaje2.jpg" alt="Paisaje" class="img-responsive" ></center>
+    </div>
+    <div class="col-xs-3">
+    
+    </div>
+  </div>
+</div>
+<br>
+
+<h2>Columnas anidadas</h2>
+<div class="row"  >
+  <div class="col-xs-9 col-md-9" style="background-color:#ea5d12; padding:20px; border-style: solid;">
+      <center> Nivel 1: 9 columnas </center>
+    <div class="row">
+      <div class="col-xs-6 col-md-6" style="background-color:#6daab3; padding:10px; border-style: dotted;">
+          <center>Nivel 2: 6 columnas</center>
+      </div>
+      <div class="col-xs-6  col-md-6" style="background-color:#6f6f6f; padding:10px; border-style: dotted;">
+        <center>Nivel 2: 6 columnas</center>
+      </div>
+    </div>
+  </div>
+    <div class ="col-xs-3  col-md-3" style="background-color:#f49a00; border-style: solid; padding:20px;" >  
+        <center>Nivel 1: 3 columnas</center>
+           <div class="row">
+      <div class="col-xs-6  col-md-6" style="background-color:#6daab3; padding:10px; border-style: dotted;">
+          <center>Nivel 2: 6 columnas</center>
+      </div>
+      <div class="col-xs-6 col-md-6" style="background-color:#6f6f6f; padding:10px; border-style: dotted;">
+        <center>Nivel 2: 6 columnas</center>
+      </div>
+    </div>
+    </div>
+</div>
+
+    <br>
+    
+  
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+
+.row {
+    text-align: center;
+}
+
+.row div  p{
+    background-color: grey;
+    padding: 1em;
+    text-align: center;
+}
+
+.primero div p {
+    background-color: orange;
+    padding: 1em;
+    text-align: center;
+}

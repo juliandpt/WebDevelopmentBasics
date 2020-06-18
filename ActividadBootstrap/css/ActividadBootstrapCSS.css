@@ -1,0 +1,26 @@
+body {
+    padding-top: 2em;
+    padding-left: 20em;
+    padding-right: 20em;
+}
+
+div {
+    text-align: center;
+}
+
+#button {
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.vox{
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    margin: 1em;
+    border-radius: 5px;
+}

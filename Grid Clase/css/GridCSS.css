@@ -1,0 +1,40 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 25vh 50vh 25vh;
+    grid-auto-rows: 20px;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+  } 
+   
+.grid-item {   
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    font-family: Pacifico;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    background: blue;
+    grid-column: 1/13;
+}
+
+.menu {
+    background: aquamarine;
+    grid-column: 1/4;
+}
+
+.content{
+    background: grey;
+    grid-column: 4/13;
+}
+
+.footer {
+    background: black;
+    grid-column: 1/13;
+}

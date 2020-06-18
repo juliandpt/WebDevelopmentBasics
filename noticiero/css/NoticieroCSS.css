@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+body {
+    display: block;
+    background-image: url("../resources/news-bg.jpg");
+    background-size: 100% 100%;
+    padding-right: 16em;
+    padding-left: 16em;
+}
+
+div {
+    background-color: white;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+h2 {
+    text-align: left;
+    margin-left: 5px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+p {
+    margin-left: 5px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+}
+
+.fila1, .fila2{
+    display: flex;
+    flex-direction: row;
+}
+
+.izq {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: grey;
+    margin-right: 0.5em;
+    width: 50%;
+        
+}
+
+.dcha {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    margin-left: 0.5em;
+    width: 50%;
+}
+
+#izqf2, #dchaf2 {
+    margin-bottom: 1em;
+}
+
+
